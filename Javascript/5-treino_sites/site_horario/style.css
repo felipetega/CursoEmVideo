@@ -1,0 +1,31 @@
+body{
+    background: teal;
+    font: normal 20px Arial;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+}
+header{
+    color: aliceblue;
+    text-align: center;
+}
+section{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 5px 5px 10px black;
+    width: 500px;
+    margin: auto;
+}
+footer{
+    color: black;
+    font-style: italic;
+    position: absolute;
+	bottom: 10px;
+    font: italic 16px Arial black;
+    padding-left: 10px;
+    text-align: center;
+}
+div{
+    text-align: center;
+    padding: 5px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    <style>
+        body{
+            background-color: rgba(123, 115, 224, 0.377);
+            color: black;
+            font: normal 20pt Arial;
+        }
+        h1 {
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Exemplo</p>
+    <script> //Conversões: Number, string - Concatenação ou template string
+        var n1 =  Number(window.prompt("Digite um número: "))
+        var n2 =  Number(window.prompt("Digite outro número: "))
+        var s1 = n1+n2
+        window.alert("A soma dos números é de: "+s1+"!")
+        var n3 =  String(window.prompt("Digite um número: "))
+        var n4 =  String(window.prompt("Digite outro número: "))
+        var s2 = n3+n4
+        window.alert(`A junção dos números é: ${s2}!`)
+        var n1 =  window.prompt("Digite um número: ")
+        var n2 =  window.prompt("Digite outro número: ")
+        var s1 = n1+n2
+        window.alert("A junção dos números é: "+String(s2)+"!")
+
+    </script>
+</body>
+</html>
