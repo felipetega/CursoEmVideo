@@ -1,5 +1,2 @@
-
-Chaves
-Kiko
-Dona Florinda
-Seu Madruga
+Felipe;20
+Thiago;30

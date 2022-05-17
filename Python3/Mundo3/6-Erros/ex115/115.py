@@ -12,7 +12,9 @@ while True:
     if menu == 1:
         lerArquivo(arq)
     elif menu == 2:
-        print("Opção 2")
+        nome = str(input("Nome: "))
+        idade = int(input("Idade: "))
+        cadastrar(arq, nome, idade)
     elif menu == 3:
         break
     else:
