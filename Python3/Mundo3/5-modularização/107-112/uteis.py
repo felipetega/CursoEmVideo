@@ -16,3 +16,7 @@ def aumento(x):
 def reducao(x):
   res=x*0.9
   return res
+
+
+def moeda(x=0):
+  return f'R${x:.2f}'.replace('.', ',')
